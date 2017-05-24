@@ -96,6 +96,10 @@
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
