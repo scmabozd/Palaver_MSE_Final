@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
