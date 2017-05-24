@@ -1,87 +1,123 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:8:22-69
 application
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mbozd\.android\build-cache\09504ce91c2aa68da3eca1d81efa6aa15bf7cdc5\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mbozd\.android\build-cache\6884427e6791c3ec93300af8469ed4778f78f259\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mbozd\.android\build-cache\b70684a9fc48a0c11863b5ff3dcd618c000754eb\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mbozd\.android\build-cache\1737fe8ed475724016120aa4db61b1f096aabced\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mbozd\.android\build-cache\d08a18a6ce019fa97934e8051b940d9325f33b14\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\624b5670eb5f5943072760ab63a16790f72afa05\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\d81871e3aacdc5455689fdb1d3ac70e7cee56c7c\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mbozd\.android\build-cache\ee24aea766e215d28ccc212d203607f51d836b76\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mbozd\.android\build-cache\29d4dd078b5394158435e5c21d149c6f88b9f2ea\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:10:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Moritz\.android\build-cache\d8adb62123e050de71359ee7044ddde745ce4612\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Moritz\.android\build-cache\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Moritz\.android\build-cache\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Moritz\.android\build-cache\1dc355ea87fee717a796c0a62f262268d7808c85\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Moritz\.android\build-cache\1b3f53d7a82a4ff5493021776b4b4e0b93816e85\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Moritz\.android\build-cache\0bf064401e756b4cd29d5ff6848342ef8f6235e3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Moritz\.android\build-cache\69daa67cc73deaaf07b53c7af4af8712c83d4e4d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Moritz\.android\build-cache\594afe334ce19af443faa6984947644132db6788\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Moritz\.android\build-cache\27d94c41845a1a8159477f852362b699f8a510ba\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Moritz\.android\build-cache\d1dd4ea3c70eabfb7cd6ab6c3d65ee3374c547a8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Moritz\.android\build-cache\3f321481c1f0b5618a3c2cb254aab182a6a5cb87\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Moritz\.android\build-cache\cb384b944f13bc22044c57935d91d700499f6ab6\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:15:9-35
 	android:roundIcon
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:14:9-54
 	android:allowBackup
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:12:9-43
 	android:theme
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.example.ude.palaver_mse.MainActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.ude.palaver_mse.LoginActivity
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:24:9-26:60
+	android:label
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:26:13-57
+	android:name
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:25:13-42
+activity#com.example.ude.palaver_mse.RegisterActivity
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:27:9-29:63
+	android:label
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:28:13-45
+activity#com.example.ude.palaver_mse.chatOverviewActivity
+ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:30:9-67
+	android:name
+		ADDED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:30:19-55
 uses-sdk
-INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mbozd\.android\build-cache\09504ce91c2aa68da3eca1d81efa6aa15bf7cdc5\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mbozd\.android\build-cache\6884427e6791c3ec93300af8469ed4778f78f259\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mbozd\.android\build-cache\b70684a9fc48a0c11863b5ff3dcd618c000754eb\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mbozd\.android\build-cache\1737fe8ed475724016120aa4db61b1f096aabced\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mbozd\.android\build-cache\d08a18a6ce019fa97934e8051b940d9325f33b14\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\624b5670eb5f5943072760ab63a16790f72afa05\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\d81871e3aacdc5455689fdb1d3ac70e7cee56c7c\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mbozd\.android\build-cache\ee24aea766e215d28ccc212d203607f51d836b76\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mbozd\.android\build-cache\29d4dd078b5394158435e5c21d149c6f88b9f2ea\output\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Moritz\.android\build-cache\d8adb62123e050de71359ee7044ddde745ce4612\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Moritz\.android\build-cache\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Moritz\.android\build-cache\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Moritz\.android\build-cache\1dc355ea87fee717a796c0a62f262268d7808c85\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Moritz\.android\build-cache\1b3f53d7a82a4ff5493021776b4b4e0b93816e85\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Moritz\.android\build-cache\44a5f7962f9bc500eff89a5c7f0f054b832b1f4c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Moritz\.android\build-cache\0bf064401e756b4cd29d5ff6848342ef8f6235e3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Moritz\.android\build-cache\69daa67cc73deaaf07b53c7af4af8712c83d4e4d\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Moritz\.android\build-cache\594afe334ce19af443faa6984947644132db6788\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Moritz\.android\build-cache\27d94c41845a1a8159477f852362b699f8a510ba\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Moritz\.android\build-cache\d1dd4ea3c70eabfb7cd6ab6c3d65ee3374c547a8\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Moritz\.android\build-cache\3f321481c1f0b5618a3c2cb254aab182a6a5cb87\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Moritz\.android\build-cache\cb384b944f13bc22044c57935d91d700499f6ab6\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Moritz\.android\build-cache\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moritz\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mbozd\.android\build-cache\09504ce91c2aa68da3eca1d81efa6aa15bf7cdc5\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mbozd\.android\build-cache\6884427e6791c3ec93300af8469ed4778f78f259\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mbozd\.android\build-cache\b70684a9fc48a0c11863b5ff3dcd618c000754eb\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mbozd\.android\build-cache\1737fe8ed475724016120aa4db61b1f096aabced\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mbozd\.android\build-cache\d08a18a6ce019fa97934e8051b940d9325f33b14\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\624b5670eb5f5943072760ab63a16790f72afa05\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\d81871e3aacdc5455689fdb1d3ac70e7cee56c7c\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mbozd\.android\build-cache\ee24aea766e215d28ccc212d203607f51d836b76\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Moritz\.android\build-cache\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Moritz\.android\build-cache\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Moritz\.android\build-cache\1dc355ea87fee717a796c0a62f262268d7808c85\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Moritz\.android\build-cache\1b3f53d7a82a4ff5493021776b4b4e0b93816e85\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Moritz\.android\build-cache\44a5f7962f9bc500eff89a5c7f0f054b832b1f4c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Moritz\.android\build-cache\0bf064401e756b4cd29d5ff6848342ef8f6235e3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Moritz\.android\build-cache\69daa67cc73deaaf07b53c7af4af8712c83d4e4d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Moritz\.android\build-cache\594afe334ce19af443faa6984947644132db6788\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Moritz\.android\build-cache\27d94c41845a1a8159477f852362b699f8a510ba\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Moritz\.android\build-cache\d1dd4ea3c70eabfb7cd6ab6c3d65ee3374c547a8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Moritz\.android\build-cache\3f321481c1f0b5618a3c2cb254aab182a6a5cb87\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Moritz\.android\build-cache\cb384b944f13bc22044c57935d91d700499f6ab6\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Moritz\.android\build-cache\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Moritz\.android\build-cache\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\output\AndroidManifest.xml:26:9-47
