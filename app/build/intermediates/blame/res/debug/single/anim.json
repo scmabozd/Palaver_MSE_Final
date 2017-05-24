@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_popup_exit.xml"
     },
@@ -8,8 +16,60 @@
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
@@ -24,24 +84,32 @@
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
@@ -52,15 +120,11 @@
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\anim\\design_fab_in.xml"
     }
 ]
