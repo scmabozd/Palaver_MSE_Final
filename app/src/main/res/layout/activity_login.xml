@@ -85,5 +85,5 @@
         android:id="@+id/button2"
         android:layout_width="194dp"
         android:layout_height="wrap_content"
-        android:text="Zur Registrierung" />
+        android:text="@string/zur_registrierung" />
 </LinearLayout>
