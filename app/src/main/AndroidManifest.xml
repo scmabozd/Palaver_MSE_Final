@@ -28,6 +28,7 @@
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register" />
         <activity android:name=".chatOverviewActivity" />
+        <activity android:name=".ChatWindow"></activity>
     </application>
 
 </manifest>
