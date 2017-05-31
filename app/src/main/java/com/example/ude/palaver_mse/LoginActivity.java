@@ -3,6 +3,7 @@ package com.example.ude.palaver_mse;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -92,6 +93,19 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+
+        setContentView(R.layout.activity_main);
+        Button b = (Button) findViewById(R.id.regButton);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startNewActivity();
+            }
+        });
+    }
+    private void startNewActivity() {
+        Intent i = new Intent(this, RegisterActivity.class);
+        startActivity(i);
     }
 
     private void populateAutoComplete() {
