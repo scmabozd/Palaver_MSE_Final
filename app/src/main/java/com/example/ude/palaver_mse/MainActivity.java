@@ -8,6 +8,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,11 +22,25 @@ public class MainActivity extends AppCompatActivity {
                 startNewActivity();
             }
         });
+
+        Button b2 = (Button) findViewById(R.id.buttonChatOverview);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v2) {
+                startChatOverviewActivity();
+            }
+        }   );
     }
     private void startNewActivity() {
         Intent i = new Intent(this, LoginActivity.class);
         startActivity(i);
     }
+
+    private void startChatOverviewActivity() {
+        Intent i2 = new Intent(this, chatOverviewActivity.class);
+        startActivity(i2);
+    }
+
 
 }
 
