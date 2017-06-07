@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:tabBackground="@color/colorPrimary"
-            app:tabIndicatorColor="@color/colorPrimaryDark"
+            app:tabIndicatorColor="@color/colorAccent"
             app:tabGravity="fill"
             app:tabMode="fixed" />
 
@@ -27,6 +27,7 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     </RelativeLayout>
+
     <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools" android:layout_width="368dp"
         android:layout_height="495dp" tools:context="com.ebookfrenzy.tablayoutdemo.Tab1Fragment"
