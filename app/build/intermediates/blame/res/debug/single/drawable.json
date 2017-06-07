@@ -4,24 +4,24 @@
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
@@ -32,20 +32,20 @@
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",

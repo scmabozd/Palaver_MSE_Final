@@ -17,4 +17,5 @@
     <string name="title_activity_register">Registrieren</string>
     <string name="noch_nicht_registriert">Noch nicht registriert?</string>
     <string name="zur_registrierung">Zur Registrierung</string>
+    <string name="title_activity_contact">Contact</string>
 </resources>
