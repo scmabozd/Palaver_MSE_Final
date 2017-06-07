@@ -15,11 +15,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button b = (Button) findViewById(R.id.buttonTest);
+
+
+
+        Button b = (Button) findViewById(R.id.buttonLogIn);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startNewActivity();
+                startNewActivity(LoginActivity.class);
             }
         });
 
@@ -27,29 +30,25 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v2) {
-                startChatOverviewActivity();
+                startNewActivity(chatOverviewActivity.class);
             }
         }   );
+        Button b3 = (Button) findViewById(R.id.buttonRegister);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v3) {
+                startNewActivity(RegisterActivity.class);
+            }
+        }   );
+
+
+
+
+
     }
-    private void startNewActivity() {
-<<<<<<< Updated upstream
-        Intent i = new Intent(this, LoginActivity.class);
-=======
-        Intent i = new Intent(this, ChatActivity.class);
->>>>>>> Stashed changes
+    private void startNewActivity(Class x) {
+
+        Intent i = new Intent(this, x);
         startActivity(i);
     }
-
-    private void startChatOverviewActivity() {
-        Intent i2 = new Intent(this, chatOverviewActivity.class);
-        startActivity(i2);
-    }
-
-
 }
-/*
-@Override
-            public void onClick(View v) {
-                startNewActivity();
-            }
- */
