@@ -29,20 +29,34 @@ public class MainActivity extends AppCompatActivity {
         Button b2 = (Button) findViewById(R.id.buttonChatOverview);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v2) {
+            public void onClick(View v) {
                 startNewActivity(chatOverviewActivity.class);
             }
         }   );
         Button b3 = (Button) findViewById(R.id.buttonRegister);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v3) {
+            public void onClick(View v) {
                 startNewActivity(RegisterActivity.class);
             }
         }   );
 
 
+        Button b4 = (Button) findViewById(R.id.buttonChat);
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startNewActivity(ChatActivity.class);
+            }
+        }   );
 
+        Button b5 = (Button) findViewById(R.id.buttonAddContact);
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startNewActivity(AddContactActivity.class);
+            }
+        }   );
 
 
     }
