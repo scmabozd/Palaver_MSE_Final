@@ -32,7 +32,11 @@ public class MainActivity extends AppCompatActivity {
         }   );
     }
     private void startNewActivity() {
+<<<<<<< Updated upstream
         Intent i = new Intent(this, LoginActivity.class);
+=======
+        Intent i = new Intent(this, ChatActivity.class);
+>>>>>>> Stashed changes
         startActivity(i);
     }
 
@@ -43,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
-
 /*
 @Override
             public void onClick(View v) {

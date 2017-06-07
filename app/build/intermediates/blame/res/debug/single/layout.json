@@ -80,6 +80,10 @@
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat_window.xml",
+        "source": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\src\\main\\res\\layout\\activity_chat_window.xml"
+    },
+    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
@@ -236,6 +240,10 @@
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -326,6 +334,10 @@
     {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test2.xml",
+        "source": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\src\\main\\res\\layout\\activity_test2.xml"
     },
     {
         "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",

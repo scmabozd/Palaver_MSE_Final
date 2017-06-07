@@ -94,7 +94,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
 
+<<<<<<< Updated upstream
 
+=======
+       // setContentView(R.layout.activity_main);
+>>>>>>> Stashed changes
         Button b = (Button) findViewById(R.id.regButton);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
