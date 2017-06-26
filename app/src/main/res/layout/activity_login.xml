@@ -22,7 +22,7 @@
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
-        android:layout_height="329dp">
+        android:layout_height="187dp">
 
         <LinearLayout
             android:id="@+id/email_login_form"
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content">
 
                 <AutoCompleteTextView
-                    android:id="@+id/username"
+                    android:id="@+id/usernameRegistrierung"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Benutzername"
@@ -76,6 +76,13 @@
     </ScrollView>
 
     <TextView
+        android:id="@+id/textViewLogin"
+        android:textColor="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,4 +93,5 @@
         android:layout_width="194dp"
         android:layout_height="wrap_content"
         android:text="@string/zur_registrierung" />
+
 </LinearLayout>

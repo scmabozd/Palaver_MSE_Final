@@ -3,6 +3,9 @@ package com.example.ude.palaver_mse;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
@@ -20,6 +23,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -29,6 +33,15 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,6 +52,12 @@ import static android.Manifest.permission.READ_CONTACTS;
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+
+
+
+
+    AppController palaver;
+
 
     /**
      * Id to identity READ_CONTACTS permission request.
@@ -68,7 +87,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         // Set up the login form.
-        mEmailView = (AutoCompleteTextView) findViewById(R.id.username);
+        mEmailView = (AutoCompleteTextView) findViewById(R.id.usernameRegistrierung);
         populateAutoComplete();
 
         mPasswordView = (EditText) findViewById(R.id.password);
@@ -200,9 +219,77 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
-            mAuthTask = new UserLoginTask(email, password);
-            mAuthTask.execute((Void) null);
+            //mAuthTask = new UserLoginTask(email, password);
+            //mAuthTask.execute((Void) null);
+            try {
+                userLog();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
         }
+    }
+
+    private void userLog() throws JSONException {
+        //showpDialog();
+        final String url = "http://palaver.se.paluno.uni-due.de/api/user/validate";
+
+        final String usernameLogin = mEmailView.getText().toString();
+        final String pwd = mPasswordView.getText().toString();
+        final JSONObject params = new JSONObject();
+        try {
+            params.put("Username", usernameLogin);
+            params.put("Password", pwd);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        JsonObjectRequest postRequest = new JsonObjectRequest(Request.Method.POST, url, new JSONObject(String.valueOf(params)),
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        Log.d("Response", String.valueOf(response) + String.valueOf(params));
+                        try {
+                            String msgType = response.getString("MsgType");
+                            String information = response.getString("Info");
+                            String data = response.getString("Data");
+
+                            if(msgType.equals("1")){
+                                Log.d("Login Prozess","Erfolgreich");
+                                palaver = new AppController();
+                                palaver.setUsername(usernameLogin);
+                                palaver.setPassword(pwd);
+                                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+
+                            }else if(information.equals("Benutzer existiert nicht")){
+                                showProgress(false);
+                                TextView output = (TextView) findViewById(R.id.textViewLogin);
+                                output.setText("Der Benutzer existiert nicht");
+                            }else{
+                                showProgress(false);
+                                TextView output = (TextView) findViewById(R.id.textViewLogin);
+                                output.setText("Password ist nicht korrekt");
+                            }
+
+
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                            Toast.makeText(getApplicationContext(),
+                                    "Error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        // error
+                        Log.d("Error.Response", url);
+                    }
+                }
+        ) {
+        };
+        AppController.getInstance().addToRequestQueue(postRequest);
     }
 
     private boolean isEmailValid(String email) {
