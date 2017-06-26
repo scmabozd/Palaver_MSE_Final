@@ -1,17 +1,12 @@
 package com.example.ude.palaver_mse;
-
-import android.app.Application;
-import android.text.TextUtils;
-import android.app.Application;
-import android.text.TextUtils;
-
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
-
 /**
  * Created by mbozd on 26.06.2017.
  */
+import android.app.Application;
+import android.text.TextUtils;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
 
 public class AppController extends Application {
 
