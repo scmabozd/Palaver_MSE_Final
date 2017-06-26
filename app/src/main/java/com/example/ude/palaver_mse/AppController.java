@@ -3,12 +3,14 @@ package com.example.ude.palaver_mse;
  * Created by mbozd on 26.06.2017.
  */
 import android.app.Application;
+import android.content.SharedPreferences;
 import android.text.TextUtils;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 public class AppController extends Application {
+    private SharedPreferences prefs;
 
     public static final String TAG = AppController.class.getSimpleName();
 
@@ -48,5 +50,13 @@ public class AppController extends Application {
         if (mRequestQueue != null) {
             mRequestQueue.cancelAll(tag);
         }
+    }
+    public String getUsername() {
+        return prefs.getString("username", null);
+
+    }
+    public String getPassword() {
+        return prefs.getString("password", null);
+
     }
 }
