@@ -57,6 +57,22 @@ public class contacts extends AppCompatActivity {
                 startActivity(new Intent(contacts.this, LoginActivity.class));
             }
         });
+        findViewById(R.id.floatingActionButtonAddContact).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(contacts.this, AddContactActivity.class));
+            }
+        });
+        findViewById(R.id.floatingActionButtonRefresh).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    getRequestFriends();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 
     private void getRequestFriends() throws JSONException {
