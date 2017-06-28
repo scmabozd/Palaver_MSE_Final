@@ -2,7 +2,10 @@ package com.example.ude.palaver_mse;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -66,11 +69,15 @@ public class AddContactActivity extends AppCompatActivity {
         showpDialog();
         final String url = "http://palaver.se.paluno.uni-due.de/api/friends/add";
 
+        final Context c = this;
 
         final JSONObject params = new JSONObject();
         try {
-            params.put("Username", palaver.getUsername());
-            params.put("Password", palaver.getPassword());
+            SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(c);
+            SharedPreferences.Editor editor = sp.edit();
+            String username = sp.getString("Username", null);
+            params.put("Username", username);
+            params.put("Password", "test2017");
             params.put("Friend", userEingabe.getText().toString());
         } catch (JSONException e) {
             e.printStackTrace();
@@ -80,8 +87,24 @@ public class AddContactActivity extends AppCompatActivity {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Log.d("Response", String.valueOf(response) +  String.valueOf(params));
-                        hidepDialog();
+                        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(c);
+                        try {
+                            String msgType = response.getString("MsgType");
+                            String information = response.getString("Info");
+                            String data = response.getString("Data");
+
+                            if (msgType.equals("1")) {
+                                Log.d("Response", String.valueOf(response) + String.valueOf(params));
+                                Log.d("########", sp.getString("Username", null));
+                                hidepDialog();
+                            }else{
+                                Log.d("########", sp.getString("Username", null));
+                                Log.d("Response", String.valueOf(response) + String.valueOf(params));
+                                hidepDialog();
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
                     }
                 },
                 new Response.ErrorListener() {
@@ -96,11 +119,11 @@ public class AddContactActivity extends AppCompatActivity {
         AppController.getInstance().addToRequestQueue(postRequestAddFreund);
     }
 
-    private void showpDialog() {
+
+    public void showpDialog() {
         if (!pDialog.isShowing())
             pDialog.show();
     }
-
     private void hidepDialog() {
         if (pDialog.isShowing())
             pDialog.dismiss();

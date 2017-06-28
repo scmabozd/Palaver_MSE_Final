@@ -8,9 +8,7 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
-
         android:name=".AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -39,10 +37,10 @@
         </activity>
         <activity android:name=".chatOverviewActivity" />
         <activity android:name=".ChatWindow" />
-        <activity android:name=".chat" />
-        <activity android:name=".test" />
+
         <activity android:name=".ChatActivity" />
-        <activity android:name=".AddContactActivity"></activity>
+        <activity android:name=".AddContactActivity" />
+        <activity android:name=".contacts"></activity>
     </application>
 
 </manifest>

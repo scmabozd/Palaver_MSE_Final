@@ -58,6 +58,13 @@ public class MainActivity extends AppCompatActivity {
             }
         }   );
 
+        Button b6 = (Button) findViewById(R.id.buttonContacts);
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startNewActivity(contacts.class);
+            }
+        }   );
 
     }
     private void startNewActivity(Class x) {

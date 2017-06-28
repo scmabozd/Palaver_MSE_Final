@@ -3,6 +3,7 @@ package com.example.ude.palaver_mse;
  * Created by mbozd on 26.06.2017.
  */
 import android.app.Application;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
@@ -52,13 +53,9 @@ public class AppController extends Application {
         }
     }
 
-
-
-
-
     //new
 
-    private SharedPreferences prefs;
+    SharedPreferences prefs;
     public int notificationId = 1;
 
     public void setContext(Context context) {
@@ -95,6 +92,5 @@ public class AppController extends Application {
         e.putString("password", password);
         e.commit();
     }
-
 
 }
