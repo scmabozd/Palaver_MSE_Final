@@ -11,31 +11,19 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-import com.android.volley.RequestQueue;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import org.json.JSONException;
 import org.json.JSONObject;
-//import info.androidhive.volleyjson.R;
-//import info.androidhive.volleyjson.app.AppController;
-import static com.example.ude.palaver_mse.R.id.info;
 
 
 public class AddContactActivity extends AppCompatActivity {
 
 
     private EditText userEingabe;
-    private EditText pwdEingabe;
-    private String username;
-    private String pwd;
     private ProgressDialog pDialog;
-    AppController palaver;
-
-    // temporary string to show the parsed response
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,8 +49,6 @@ public class AddContactActivity extends AppCompatActivity {
                 }
             }
         });
-
-
     }
 
     private void addUser() throws JSONException {
@@ -79,10 +65,18 @@ public class AddContactActivity extends AppCompatActivity {
             params.put("Username", username);
             params.put("Password", "test2017");
             params.put("Friend", userEingabe.getText().toString());
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(c);
+        SharedPreferences.Editor editor = sp.edit();
+        Log.d("test", userEingabe.getText().toString() + "; " + sp.getString("Username", null));
+        if (userEingabe.getText().toString().equals(sp.getString("Username", null))) {
+            userEingabe.setError("Sie können sich selbst als Kontakt nicht hinzufügen");
+                hidepDialog();
+            }
+        else{
         JsonObjectRequest postRequestAddFreund = new JsonObjectRequest(Request.Method.POST, url, new JSONObject(String.valueOf(params)),
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -97,9 +91,15 @@ public class AddContactActivity extends AppCompatActivity {
                                 Log.d("Response", String.valueOf(response) + String.valueOf(params));
                                 Log.d("########", sp.getString("Username", null));
                                 hidepDialog();
+                            }else if (information.equals("Freund bereits auf der Liste")){
+                                Log.d("########", sp.getString("Username", null));
+                                Log.d("Response", String.valueOf(response) + String.valueOf(params));
+                                userEingabe.setError("Benutzer ist bereits auf der Kontaktliste");
+                                hidepDialog();
                             }else{
                                 Log.d("########", sp.getString("Username", null));
                                 Log.d("Response", String.valueOf(response) + String.valueOf(params));
+                                userEingabe.setError("Benutzer existiert nicht");
                                 hidepDialog();
                             }
                         } catch (JSONException e) {
@@ -116,10 +116,8 @@ public class AddContactActivity extends AppCompatActivity {
                 }
         ) {
         };
-        AppController.getInstance().addToRequestQueue(postRequestAddFreund);
+        AppController.getInstance().addToRequestQueue(postRequestAddFreund);}
     }
-
-
     public void showpDialog() {
         if (!pDialog.isShowing())
             pDialog.show();
