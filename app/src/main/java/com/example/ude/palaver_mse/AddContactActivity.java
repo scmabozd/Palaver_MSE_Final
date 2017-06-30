@@ -1,11 +1,18 @@
 package com.example.ude.palaver_mse;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Notification;
+import android.app.NotificationManager;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v4.app.NotificationBuilderWithBuilderAccessor;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -17,6 +24,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 
 public class AddContactActivity extends AppCompatActivity {
@@ -91,6 +101,16 @@ public class AddContactActivity extends AppCompatActivity {
                                 Log.d("Response", String.valueOf(response) + String.valueOf(params));
                                 Log.d("########", sp.getString("Username", null));
                                 hidepDialog();
+                                final AlertDialog.Builder adb = new AlertDialog.Builder(AddContactActivity.this);
+                                adb.setTitle("Kontakt hinzugefügt");
+                                adb.setMessage("Kontakt " + userEingabe.getText().toString() + " wurde erfolgreich hinzugefügt");
+                                adb.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        startActivity(new Intent(AddContactActivity.this, contacts.class));
+                                    }
+                                });
+                                adb.show();
+
                             }else if (information.equals("Freund bereits auf der Liste")){
                                 Log.d("########", sp.getString("Username", null));
                                 Log.d("Response", String.valueOf(response) + String.valueOf(params));

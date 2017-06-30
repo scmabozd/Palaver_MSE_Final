@@ -92,6 +92,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        Context c = this;
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(c);
+        SharedPreferences.Editor editor = sp.edit();
+
+
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.usernameRegistrierung);
         populateAutoComplete();
@@ -126,7 +132,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 startNewActivity();
             }
         });
-    }
+        }
 
 
     private void startNewActivity() {
@@ -201,14 +207,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         // Check for a valid password, if the user entered one.
         if (!TextUtils.isEmpty(password) && !isPasswordValid(password)) {
-            mPasswordView.setError(getString(R.string.error_invalid_password));
+            mPasswordView.setError("Das Passwort muss länger als 4 Zeichen sein");
             focusView = mPasswordView;
             cancel = true;
         }
 
         // Check for a valid email address.
         if (TextUtils.isEmpty(email)) {
-            mEmailView.setError(getString(R.string.error_field_required));
+            mEmailView.setError("Das ist ein Pflichtfeld");
             focusView = mEmailView;
             cancel = true;
         }
@@ -271,6 +277,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                 SharedPreferences.Editor editor = sp.edit();
                                 editor.putString("Username", usernameLogin);
                                 editor.putString("Password", pwd);
+                                editor.putString("Eingeloggt", "ja");
                                 editor.apply();
                                 startActivity(new Intent(LoginActivity.this, MainActivity.class));
                                 String ausgabe = sp.getString("Username", null);
@@ -278,15 +285,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
                             }else if(information.equals("Benutzer existiert nicht")){
                                 showProgress(false);
-                                TextView output = (TextView) findViewById(R.id.textViewLogin);
-                                output.setText("Der Benutzer existiert nicht");
-                            }else{
+                                mEmailView.setError("Der Benutzer existiert nicht");
+                            }else if(information.equals("Passwort nicht korrekt")){
                                 showProgress(false);
-                                TextView output = (TextView) findViewById(R.id.textViewLogin);
-                                output.setText("Password ist nicht korrekt");
+                                mPasswordView.requestFocus();
+                                mPasswordView.setError("Passwort ist nicht korrekt");
                             }
-
-
 
                         } catch (JSONException e) {
                             e.printStackTrace();
