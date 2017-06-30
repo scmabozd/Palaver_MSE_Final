@@ -16,17 +16,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            android:label="Palaver">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
+        <activity android:name=".MainActivity">
+            android:label="Palaver">
+        </activity>
         <activity
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register"
@@ -37,10 +37,9 @@
         </activity>
         <activity android:name=".chatOverviewActivity" />
         <activity android:name=".ChatWindow" />
-
         <activity android:name=".ChatActivity" />
         <activity android:name=".AddContactActivity" />
-        <activity android:name=".contacts"></activity>
+        <activity android:name=".contacts" />
     </application>
 
 </manifest>
