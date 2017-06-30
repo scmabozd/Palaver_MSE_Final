@@ -46,7 +46,12 @@ public class ChatActivity extends AppCompatActivity {
             public boolean onKey(View v, int keyCode, KeyEvent event) {
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) && (keyCode ==
                         KeyEvent.KEYCODE_ENTER)) {
-                    return sendChatMessage();
+                    try {
+                        sendMessage();
+                        return true;
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                 }
                 return false;
             }
@@ -101,9 +106,6 @@ public class ChatActivity extends AppCompatActivity {
             params.put("Recipient", friend);
             params.put("Mimetype", "text/plain");
             params.put("Data", chatText.getText().toString());
-            adp.add(new ChatMessage(side, chatText.getText().toString()));
-            chatText.setText("");
-            side = side;
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -121,6 +123,9 @@ public class ChatActivity extends AppCompatActivity {
                             if (msgType.equals("1")) {
                                 Log.d("Response", String.valueOf(response) + String.valueOf(params));
                                 Log.d("########", sp.getString("Username", null));
+                                adp.add(new ChatMessage(side, chatText.getText().toString()));
+                                chatText.setText("");
+                                side = side;
                             }else{
                                 Log.d("########", sp.getString("Username", null));
                                 Log.d("Response", String.valueOf(response) + String.valueOf(params));}
