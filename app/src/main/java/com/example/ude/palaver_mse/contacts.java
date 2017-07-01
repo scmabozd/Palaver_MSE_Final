@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -86,6 +87,13 @@ public class contacts extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.floatingActionButtonLogout).setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                startActivity(new Intent(contacts.this, MainActivity.class));
+                return false;
+            }
+        });
 
         final Context c = this;
 

@@ -63,6 +63,8 @@ public class AddContactActivity extends AppCompatActivity {
 
     private void addUser() throws JSONException {
         showpDialog();
+        View focusView = null;
+        focusView = userEingabe;
         final String url = "http://palaver.se.paluno.uni-due.de/api/friends/add";
 
         final Context c = this;
@@ -72,8 +74,9 @@ public class AddContactActivity extends AppCompatActivity {
             SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(c);
             SharedPreferences.Editor editor = sp.edit();
             String username = sp.getString("Username", null);
+            String pwd = sp.getString("Password", null);
             params.put("Username", username);
-            params.put("Password", "test2017");
+            params.put("Password", pwd);
             params.put("Friend", userEingabe.getText().toString());
 
         } catch (JSONException e) {
