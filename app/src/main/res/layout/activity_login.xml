@@ -76,13 +76,6 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/textViewLogin"
-        android:textColor="@color/red"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
