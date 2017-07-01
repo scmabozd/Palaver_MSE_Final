@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
 android:layout_height="fill_parent"
 android:orientation="vertical"
     >
@@ -8,7 +9,7 @@ android:orientation="vertical"
     android:id="@+id/listview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="80dp"
+    android:layout_marginBottom="90dp"
     />
 
 <RelativeLayout
@@ -39,6 +40,21 @@ android:orientation="vertical"
         android:layout_alignBottom="@+id/chat_text"
         android:layout_alignParentRight="true"
         />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButtonRefreshChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini"
+        app:rippleColor="?attr/colorBackgroundFloating"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
 
 </RelativeLayout>
 

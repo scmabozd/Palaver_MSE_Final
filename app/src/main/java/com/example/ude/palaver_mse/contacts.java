@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -69,6 +70,7 @@ public class contacts extends AppCompatActivity {
                             kontaktEntfernen(adapter.getItem(position).toString());
                             getRequestFriends();
                             progressDialog.hide();
+                            Toast.makeText(contacts.this, "Kontakt gelöscht", Toast.LENGTH_LONG).show();
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -112,6 +114,7 @@ public class contacts extends AppCompatActivity {
                 try {
                     showpDialog();
                     getRequestFriends();
+                    Toast.makeText(contacts.this, "Kontaktliste aktualisiert", Toast.LENGTH_SHORT).show();
                     hidepDialog();
                 } catch (JSONException e) {
                     e.printStackTrace();
