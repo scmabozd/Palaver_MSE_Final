@@ -11,19 +11,22 @@
     <application
         android:name=".AppController"
         android:allowBackup="true"
+        android:backgroundTint="@color/colorPrimary"
         android:icon="@mipmap/ic_launcher"
         android:label="Palaver"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login">
+
+        <activity android:name=".splashActivity">#
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"></activity>
         <activity android:name=".MainActivity">
             android:label="Palaver">
         </activity>
@@ -39,7 +42,9 @@
         <activity android:name=".ChatWindow" />
         <activity android:name=".ChatActivity" />
         <activity android:name=".AddContactActivity" />
-        <activity android:name=".contacts" />
+        <activity
+            android:name=".contacts"
+            android:label="Kontaktliste" />
     </application>
 
 </manifest>
