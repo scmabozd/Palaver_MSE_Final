@@ -107,6 +107,7 @@ public class contacts extends AppCompatActivity {
                 editor.putString("Password",null);
                 editor.putString("Eingeloggt", "nein");
                 editor.commit();
+                finish();
                 startActivity(new Intent(contacts.this, LoginActivity.class));
             }
         });
