@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "217115549009",
+    "project_id": "palaver-172119"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217115549009:android:43cb140181169aeb",
+        "android_client_info": {
+          "package_name": "com.example.ude.palaver_mse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217115549009-ql17u493opbja91q2reff10tfkt5s22n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBShU53tKnd60LjPuPjprkwKUhpXUh3aXg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
