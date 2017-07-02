@@ -1,19 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
@@ -24,40 +12,20 @@
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\drawable-v21\\avd_show_password.xml"
-    },
-    {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a756ed4fb155640efcda68e5c5c70d1d81b34063\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\drawable-v21\\avd_hide_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\ea7c78c24beb6c3d714287f8d677ecfbc54360e5\\output\\res\\drawable-v21\\design_password_eye.xml"
+        "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
         "source": "C:\\Users\\mbozd\\.android\\build-cache\\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\\output\\res\\drawable-v21\\avd_show_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\Moritz\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Moritz\\.android\\build-cache\\0bdc898fe3f2f663f8425fd6349dc4ed73acd702\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
         "merged": "C:\\Users\\mbozd\\AndroidStudioProjects\\Palaver_MSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",

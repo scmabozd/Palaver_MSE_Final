@@ -18,4 +18,8 @@
     <string name="noch_nicht_registriert">Noch nicht registriert?</string>
     <string name="zur_registrierung">Zur Registrierung</string>
     <string name="title_activity_contact">Contact</string>
+
+    <string name="title_activity_splash">splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

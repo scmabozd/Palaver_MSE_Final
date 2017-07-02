@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
@@ -25,14 +25,73 @@ uses-permission#android.permission.READ_CONTACTS
 ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
 		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:8:22-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\2ea948993c7ddd60d954381c734472fff1398f5b\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.6] C:\Users\mbozd\.android\build-cache\2ec97779323d9a02f2c853de7f5ebef04a3f1be2\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\mbozd\.android\build-cache\922f64668ca5c70cacb39947f039e90b72f93e10\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\mbozd\.android\build-cache\1c7b594a4a6cce45524560495bae68b83b69ba44\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2e72408afe8189c450bb8f12d4c96eb5969fd8a5\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:10:5-42:19
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:11:5-48:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mbozd\.android\build-cache\29d4dd078b5394158435e5c21d149c6f88b9f2ea\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mbozd\.android\build-cache\e8d7a2b8437a19f84802f5fc2b0441c08fe2e912\output\AndroidManifest.xml:26:5-20
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\mbozd\.android\build-cache\6d693edb964f0959e0ff14d2951523c7db69cb00\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services:10.2.6] C:\Users\mbozd\.android\build-cache\0e8e98729fd1253d6cd966f5a8dc1cd75d44da7c\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\2ea948993c7ddd60d954381c734472fff1398f5b\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.6] C:\Users\mbozd\.android\build-cache\50e63798b12e2be2217126812d710ecd7c74b8b9\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.6] C:\Users\mbozd\.android\build-cache\1cca0a0bd5f2b139df5355ee288ca09e60945424\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\mbozd\.android\build-cache\d8cf24d440a0044db46cfb2df327062081915674\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\624b5670eb5f5943072760ab63a16790f72afa05\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\d81871e3aacdc5455689fdb1d3ac70e7cee56c7c\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\mbozd\.android\build-cache\e8d7a2b8437a19f84802f5fc2b0441c08fe2e912\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\mbozd\.android\build-cache\7747d04698cd31c24c0e98d06f030a7bc7c3ab03\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.6] C:\Users\mbozd\.android\build-cache\7348f6fbf9c20ab5805e098d78e3823b551f6772\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.6] C:\Users\mbozd\.android\build-cache\48933f81381530d2c231955de7ba2481ffeaf0ae\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.6] C:\Users\mbozd\.android\build-cache\9aac1c6a7c04bfdbb53a1a115fbd1a3deeb3a20c\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.6] C:\Users\mbozd\.android\build-cache\2ec97779323d9a02f2c853de7f5ebef04a3f1be2\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.6] C:\Users\mbozd\.android\build-cache\d7830e61265a68de6516b857cf2247452f61d6f8\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.6] C:\Users\mbozd\.android\build-cache\1248c94a6ab71b76fe898c8c0b9748a7e429e8f7\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.6] C:\Users\mbozd\.android\build-cache\2430df31efbe5d2445afa7ddb180446ea262e820\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.6] C:\Users\mbozd\.android\build-cache\02b49a6f683ca38376089096dd0250fb3e131b2d\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.6] C:\Users\mbozd\.android\build-cache\b249ebc55d50fb3b2daac616d168790b1fb1522d\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\mbozd\.android\build-cache\922f64668ca5c70cacb39947f039e90b72f93e10\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.6] C:\Users\mbozd\.android\build-cache\63602073806bd4377970121ac92073a62dc5ab44\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\mbozd\.android\build-cache\1c7b594a4a6cce45524560495bae68b83b69ba44\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.6] C:\Users\mbozd\.android\build-cache\1a43f18e17be2a43e0877fe8558bc82c6d3e9477\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.6] C:\Users\mbozd\.android\build-cache\3ebb05aa74da90c7afaadee1174ead3b13226257\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.6] C:\Users\mbozd\.android\build-cache\ad8dba700d5773e441f6c4039cebc6a775c4a8c8\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.6] C:\Users\mbozd\.android\build-cache\5ab9f0541b524088587758d7f2868aca4958fcdf\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.6] C:\Users\mbozd\.android\build-cache\314cd9843efde4a9c2e6205284ab5f8ad5038da2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.6] C:\Users\mbozd\.android\build-cache\e6c480bfbedde72d941cccd72ed25b7876581b74\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.6] C:\Users\mbozd\.android\build-cache\eec9af38f8aaa6e64d82eb010adf3a66fb6b33a7\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.6] C:\Users\mbozd\.android\build-cache\fc30b26c174c8a48ccc1f60ae9c9dcdcbf42b552\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2e72408afe8189c450bb8f12d4c96eb5969fd8a5\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.6] C:\Users\mbozd\.android\build-cache\79205fca20ee61d553b7a7b6184ffd1a8c7eb31c\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.6] C:\Users\mbozd\.android\build-cache\a574c5c8dcaa72f8c39ef34c044f75d730355b63\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.6] C:\Users\mbozd\.android\build-cache\5a74f59516b03f1055f095ef384f0e49489b1c0d\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.android\build-cache\8c21cbbde81635f523535d63c2589afeec414506\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\mbozd\.android\build-cache\267ce97e72341ca86a5d89245282c73b4fbb95f7\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mbozd\.android\build-cache\09504ce91c2aa68da3eca1d81efa6aa15bf7cdc5\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mbozd\.android\build-cache\6884427e6791c3ec93300af8469ed4778f78f259\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mbozd\.android\build-cache\b70684a9fc48a0c11863b5ff3dcd618c000754eb\output\AndroidManifest.xml:29:5-20
@@ -40,84 +99,142 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mbozd\.android
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mbozd\.android\build-cache\d08a18a6ce019fa97934e8051b940d9325f33b14\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mbozd\.android\build-cache\ee24aea766e215d28ccc212d203607f51d836b76\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:13:9-32
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:16:9-32
 	android:supportsRtl
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:18:9-35
 	android:roundIcon
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:17:9-54
 	android:allowBackup
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:13:9-35
 	android:icon
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:15:9-43
 	android:theme
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:16:9-40
-activity#com.example.ude.palaver_mse.MainActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:17:9-24:20
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:19:9-40
+	android:backgroundTint
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:14:9-53
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:12:9-38
+activity#com.example.ude.palaver_mse.splashActivity
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:21:9-26:20
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:21:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:23:17-68
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.example.ude.palaver_mse.LoginActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:25:9-27:60
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:27:9-29:69
 	android:label
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:27:13-57
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:29:13-57
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:26:13-42
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:28:13-42
+activity#com.example.ude.palaver_mse.MainActivity
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:30:9-32:20
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:30:19-47
 activity#com.example.ude.palaver_mse.RegisterActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:28:9-35:20
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:33:9-40:20
 	android:label
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:30:13-60
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:35:13-60
 	android:parentActivityName
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:31:13-56
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:29:13-45
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:34:13-45
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:32:13-34:50
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:37:13-39:50
 	android:value
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:34:17-47
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:39:17-47
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:33:17-63
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:38:17-63
 activity#com.example.ude.palaver_mse.chatOverviewActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:36:9-58
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:41:9-58
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:36:19-55
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:41:19-55
 activity#com.example.ude.palaver_mse.ChatWindow
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:37:9-48
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:42:9-48
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:37:19-45
-activity#com.example.ude.palaver_mse.chat
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:38:9-42
-	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:38:19-39
-activity#com.example.ude.palaver_mse.test
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:39:9-42
-	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:39:19-39
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:42:19-45
 activity#com.example.ude.palaver_mse.ChatActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:40:9-50
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:43:9-50
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:40:19-47
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:43:19-47
 activity#com.example.ude.palaver_mse.AddContactActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:41:9-65
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:44:9-56
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:41:19-53
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:44:19-53
+activity#com.example.ude.palaver_mse.contacts
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:45:9-47:44
+	android:label
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:47:13-41
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:46:13-37
 uses-sdk
 INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mbozd\.android\build-cache\29d4dd078b5394158435e5c21d149c6f88b9f2ea\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mbozd\.android\build-cache\3ab436856f4e04753fcbddb78c659c57d7e44d43\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mbozd\.android\build-cache\e8d7a2b8437a19f84802f5fc2b0441c08fe2e912\output\AndroidManifest.xml:20:5-44
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\mbozd\.android\build-cache\6d693edb964f0959e0ff14d2951523c7db69cb00\output\AndroidManifest.xml:3:5-72
+MERGED from [com.google.android.gms:play-services:10.2.6] C:\Users\mbozd\.android\build-cache\0e8e98729fd1253d6cd966f5a8dc1cd75d44da7c\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.6] C:\Users\mbozd\.android\build-cache\e8b6ca7a9e70c2253c2bb4016c9f19706d47f9c8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\2ea948993c7ddd60d954381c734472fff1398f5b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.6] C:\Users\mbozd\.android\build-cache\c11d2ed10287cb48c44f56bb2e678d57c3ef1cde\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.6] C:\Users\mbozd\.android\build-cache\50e63798b12e2be2217126812d710ecd7c74b8b9\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.6] C:\Users\mbozd\.android\build-cache\1cca0a0bd5f2b139df5355ee288ca09e60945424\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\mbozd\.android\build-cache\d8cf24d440a0044db46cfb2df327062081915674\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\624b5670eb5f5943072760ab63a16790f72afa05\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\d81871e3aacdc5455689fdb1d3ac70e7cee56c7c\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mbozd\.android\build-cache\3ab436856f4e04753fcbddb78c659c57d7e44d43\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\mbozd\.android\build-cache\e8d7a2b8437a19f84802f5fc2b0441c08fe2e912\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\mbozd\.android\build-cache\7747d04698cd31c24c0e98d06f030a7bc7c3ab03\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.6] C:\Users\mbozd\.android\build-cache\7348f6fbf9c20ab5805e098d78e3823b551f6772\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.6] C:\Users\mbozd\.android\build-cache\48933f81381530d2c231955de7ba2481ffeaf0ae\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.6] C:\Users\mbozd\.android\build-cache\9aac1c6a7c04bfdbb53a1a115fbd1a3deeb3a20c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.6] C:\Users\mbozd\.android\build-cache\2ec97779323d9a02f2c853de7f5ebef04a3f1be2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.6] C:\Users\mbozd\.android\build-cache\d7830e61265a68de6516b857cf2247452f61d6f8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.6] C:\Users\mbozd\.android\build-cache\50e3687eaf16f9df7f5832a789f7baac6dd8caf0\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.6] C:\Users\mbozd\.android\build-cache\603e99897f9c82625635bae9cc29840faf567686\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.6] C:\Users\mbozd\.android\build-cache\3241d416dedd9a50a6bfc396ed8618f193374813\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.6] C:\Users\mbozd\.android\build-cache\9daf682f3555aeb4386d617aece6f49fb46d9576\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.6] C:\Users\mbozd\.android\build-cache\1248c94a6ab71b76fe898c8c0b9748a7e429e8f7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.6] C:\Users\mbozd\.android\build-cache\2430df31efbe5d2445afa7ddb180446ea262e820\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.6] C:\Users\mbozd\.android\build-cache\02b49a6f683ca38376089096dd0250fb3e131b2d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.6] C:\Users\mbozd\.android\build-cache\b249ebc55d50fb3b2daac616d168790b1fb1522d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\mbozd\.android\build-cache\922f64668ca5c70cacb39947f039e90b72f93e10\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.6] C:\Users\mbozd\.android\build-cache\63602073806bd4377970121ac92073a62dc5ab44\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\mbozd\.android\build-cache\1c7b594a4a6cce45524560495bae68b83b69ba44\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.6] C:\Users\mbozd\.android\build-cache\aee158a8e23a9bcb381b3bf56a23b0246c19003d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.6] C:\Users\mbozd\.android\build-cache\1a43f18e17be2a43e0877fe8558bc82c6d3e9477\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.6] C:\Users\mbozd\.android\build-cache\3ebb05aa74da90c7afaadee1174ead3b13226257\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.6] C:\Users\mbozd\.android\build-cache\ad8dba700d5773e441f6c4039cebc6a775c4a8c8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.6] C:\Users\mbozd\.android\build-cache\5ab9f0541b524088587758d7f2868aca4958fcdf\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.6] C:\Users\mbozd\.android\build-cache\314cd9843efde4a9c2e6205284ab5f8ad5038da2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.6] C:\Users\mbozd\.android\build-cache\e6c480bfbedde72d941cccd72ed25b7876581b74\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.6] C:\Users\mbozd\.android\build-cache\6cdd893b42734275c5c2a304f4634d6abefa4c80\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.6] C:\Users\mbozd\.android\build-cache\eec9af38f8aaa6e64d82eb010adf3a66fb6b33a7\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.6] C:\Users\mbozd\.android\build-cache\fc30b26c174c8a48ccc1f60ae9c9dcdcbf42b552\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2e72408afe8189c450bb8f12d4c96eb5969fd8a5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.6] C:\Users\mbozd\.android\build-cache\79205fca20ee61d553b7a7b6184ffd1a8c7eb31c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.6] C:\Users\mbozd\.android\build-cache\f67e05a6bbcf852f71e668a5043b3b5c301a3ac4\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.6] C:\Users\mbozd\.android\build-cache\a574c5c8dcaa72f8c39ef34c044f75d730355b63\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.6] C:\Users\mbozd\.android\build-cache\5a74f59516b03f1055f095ef384f0e49489b1c0d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.android\build-cache\8c21cbbde81635f523535d63c2589afeec414506\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\mbozd\.android\build-cache\267ce97e72341ca86a5d89245282c73b4fbb95f7\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mbozd\.android\build-cache\09504ce91c2aa68da3eca1d81efa6aa15bf7cdc5\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mbozd\.android\build-cache\6884427e6791c3ec93300af8469ed4778f78f259\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mbozd\.android\build-cache\b70684a9fc48a0c11863b5ff3dcd618c000754eb\output\AndroidManifest.xml:21:5-23:63
@@ -134,11 +251,11 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mbozd\.android\
 		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mbozd\.android\build-cache\3ab436856f4e04753fcbddb78c659c57d7e44d43\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mbozd\.android\build-cache\e8d7a2b8437a19f84802f5fc2b0441c08fe2e912\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mbozd\.android\build-cache\a756ed4fb155640efcda68e5c5c70d1d81b34063\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\624b5670eb5f5943072760ab63a16790f72afa05\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mbozd\.android\build-cache\d81871e3aacdc5455689fdb1d3ac70e7cee56c7c\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mbozd\.android\build-cache\3ab436856f4e04753fcbddb78c659c57d7e44d43\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\mbozd\.android\build-cache\e8d7a2b8437a19f84802f5fc2b0441c08fe2e912\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mbozd\.android\build-cache\09504ce91c2aa68da3eca1d81efa6aa15bf7cdc5\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mbozd\.android\build-cache\6884427e6791c3ec93300af8469ed4778f78f259\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mbozd\.android\build-cache\b70684a9fc48a0c11863b5ff3dcd618c000754eb\output\AndroidManifest.xml:25:5-27:34
@@ -149,3 +266,243 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mbozd\.android\
 		ADDED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\2ea948993c7ddd60d954381c734472fff1398f5b\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.6] C:\Users\mbozd\.android\build-cache\3ebb05aa74da90c7afaadee1174ead3b13226257\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2e72408afe8189c450bb8f12d4c96eb5969fd8a5\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\2ea948993c7ddd60d954381c734472fff1398f5b\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2e72408afe8189c450bb8f12d4c96eb5969fd8a5\output\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\2ea948993c7ddd60d954381c734472fff1398f5b\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.6] C:\Users\mbozd\.android\build-cache\52b4f5c961e8052369bc80055e79e8abb6e12701\output\AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.6] C:\Users\mbozd\.android\build-cache\b5835d2f9737c7efa1682e30ba812dd1a961f16c\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.6] C:\Users\mbozd\.android\build-cache\50e63798b12e2be2217126812d710ecd7c74b8b9\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.6] C:\Users\mbozd\.android\build-cache\50e63798b12e2be2217126812d710ecd7c74b8b9\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.6] C:\Users\mbozd\.android\build-cache\50e63798b12e2be2217126812d710ecd7c74b8b9\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.6] C:\Users\mbozd\.android\build-cache\50e63798b12e2be2217126812d710ecd7c74b8b9\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.6] C:\Users\mbozd\.android\build-cache\50e63798b12e2be2217126812d710ecd7c74b8b9\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.6] C:\Users\mbozd\.android\build-cache\50e63798b12e2be2217126812d710ecd7c74b8b9\output\AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\mbozd\.android\build-cache\922f64668ca5c70cacb39947f039e90b72f93e10\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\mbozd\.android\build-cache\1c7b594a4a6cce45524560495bae68b83b69ba44\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\mbozd\.android\build-cache\922f64668ca5c70cacb39947f039e90b72f93e10\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.6] C:\Users\mbozd\.android\build-cache\eec9af38f8aaa6e64d82eb010adf3a66fb6b33a7\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.6] C:\Users\mbozd\.android\build-cache\eec9af38f8aaa6e64d82eb010adf3a66fb6b33a7\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.6] C:\Users\mbozd\.android\build-cache\eec9af38f8aaa6e64d82eb010adf3a66fb6b33a7\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.6] C:\Users\mbozd\.android\build-cache\eec9af38f8aaa6e64d82eb010adf3a66fb6b33a7\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.6] C:\Users\mbozd\.android\build-cache\eec9af38f8aaa6e64d82eb010adf3a66fb6b33a7\output\AndroidManifest.xml:6:79-143
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.android\build-cache\8c21cbbde81635f523535d63c2589afeec414506\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.android\build-cache\8c21cbbde81635f523535d63c2589afeec414506\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.android\build-cache\8c21cbbde81635f523535d63c2589afeec414506\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.android\build-cache\8c21cbbde81635f523535d63c2589afeec414506\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:20:20-65
