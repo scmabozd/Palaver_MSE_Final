@@ -61,6 +61,7 @@ public class App extends Application {
 
     public void sendTokenToServer(String token) {
     //TODO
+        //--> Methode in Klasse RegistrationIntentService; sendRegistrationToServer(String token)
    }
 
 
