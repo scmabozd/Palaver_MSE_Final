@@ -86,5 +86,8 @@ public class MyGcmListenerService extends GcmListenerService {
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
         notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
+
+        Intent i = new Intent("neueNachricht" + data.getString("sender"));
+        sendBroadcast(i);
     }
 }

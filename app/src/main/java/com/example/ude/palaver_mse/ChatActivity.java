@@ -1,11 +1,15 @@
 package com.example.ude.palaver_mse;
 
+import android.app.NotificationManager;
 import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.database.DataSetObserver;
@@ -22,7 +26,6 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -41,6 +44,8 @@ public class ChatActivity extends AppCompatActivity {
     private FloatingActionButton refreshChat;
     private ProgressDialog pDialog;
     private boolean side = false;
+    static String fr;
+    TimeReceiver tr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +58,7 @@ public class ChatActivity extends AppCompatActivity {
         adp = new ChatArrayAdapter(getApplicationContext(), R.layout.activity_chat_window);
         list.setAdapter(adp);
         chatText = (EditText) findViewById(R.id.chat_text);
+        tr = new TimeReceiver();
 
         chatText.setOnKeyListener(new View.OnKeyListener() {
             @Override
@@ -107,7 +113,7 @@ public class ChatActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
+        fr = getIntent().getExtras().getString("friend");
 
     }
     private boolean sendChatMessage() {
@@ -228,6 +234,8 @@ public class ChatActivity extends AppCompatActivity {
                                 adp.add(new ChatMessage(side, chatText.getText().toString()));
                                 chatText.setText("");
                                 side = side;
+                                Snackbar.make(findViewById(R.id.chatLayoutAct), "Nachricht verschickt", Snackbar.LENGTH_SHORT).show();
+
                             }else{
                                 Log.d("########", sp.getString("Username", null));
                                 Log.d("Response", String.valueOf(response) + String.valueOf(params));}
@@ -247,4 +255,47 @@ public class ChatActivity extends AppCompatActivity {
         };
         AppController.getInstance().addToRequestQueue(postRequestSchickeNachricht);
     }
-}
+
+
+
+    public class TimeReceiver extends BroadcastReceiver {
+        private static final String TAG = "MyTimeReceiver";
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action=intent.getAction();
+            String msg="Chat aktualisiert";
+            //if(action.equals(Intent.ACTION_BATTERY_OKAY)) {
+              //  msg = "Battery is Ok";
+            //}
+            //else
+               // msg="Unknown Broadcast";
+            removeNotificaions();
+            try {
+                refreshChat();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            Snackbar.make(findViewById(R.id.chatLayoutAct), msg, Snackbar.LENGTH_SHORT).show();
+        }
+    }
+        private BroadcastReceiver receiver;
+
+        @Override
+        public void onResume() {
+            receiver=new TimeReceiver();
+            IntentFilter filter = new IntentFilter("neueNachricht" + fr);
+            this.registerReceiver(receiver, filter);
+            super.onResume();
+        }
+        @Override
+        public void onPause() {
+            this.unregisterReceiver(receiver);
+            receiver=null;
+            super.onPause();
+        }
+    public void removeNotificaions() {
+        NotificationManager nMgr = (NotificationManager) getApplicationContext().getSystemService(NOTIFICATION_SERVICE);
+        nMgr.cancelAll();
+    }
+    }
