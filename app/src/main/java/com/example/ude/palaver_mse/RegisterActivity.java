@@ -188,6 +188,16 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             focusView = mEmailView;
             cancel = true;
         }
+        if ( email.length() <= 2) {
+            mEmailView.setError("Der Benutzername muss länger als 2 Zeichen sein");
+            focusView = mEmailView;
+            cancel = true;
+        }
+        if(TextUtils.isEmpty(password)) {
+            mPasswordView.setError("Das ist ein Pflichtfeld");
+            focusView = mPasswordView;
+            cancel = true;
+        }
 //        else if (!isEmailValid(email)) {
 //            mEmailView.setError(getString(R.string.error_invalid_email));
 //            focusView = mEmailView;

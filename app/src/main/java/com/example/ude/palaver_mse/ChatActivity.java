@@ -217,7 +217,9 @@ public class ChatActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
+        if (chatText.getText().toString().isEmpty()) {
+            chatText.setError("Leere Nachricht");
+        }else{
         JsonObjectRequest postRequestSchickeNachricht = new JsonObjectRequest(Request.Method.POST, url, new JSONObject(String.valueOf(params)),
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -253,7 +255,7 @@ public class ChatActivity extends AppCompatActivity {
                 }
         ) {
         };
-        AppController.getInstance().addToRequestQueue(postRequestSchickeNachricht);
+        AppController.getInstance().addToRequestQueue(postRequestSchickeNachricht);}
     }
 
 
