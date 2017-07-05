@@ -267,11 +267,6 @@ public class ChatActivity extends AppCompatActivity {
         public void onReceive(Context context, Intent intent) {
             String action=intent.getAction();
             String msg="Chat aktualisiert";
-            //if(action.equals(Intent.ACTION_BATTERY_OKAY)) {
-              //  msg = "Battery is Ok";
-            //}
-            //else
-               // msg="Unknown Broadcast";
             removeNotificaions();
             try {
                 refreshChat();

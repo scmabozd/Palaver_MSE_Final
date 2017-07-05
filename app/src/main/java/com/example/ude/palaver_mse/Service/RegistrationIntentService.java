@@ -42,6 +42,21 @@ public class RegistrationIntentService extends IntentService {
         super(TAG);
     }
 
+    protected boolean neueID(){
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        String s = sharedPreferences.getString("Switch", null);
+        boolean result = Boolean.parseBoolean(null);
+        try {
+            if (sharedPreferences.getString("Switch", null).equals("x"))
+                Log.d("AAAAAAAA",sharedPreferences.getString("Switch", null));
+                result =  true;
+        }catch(Exception e){
+            result = false;
+        }
+        return result;
+    }
+
+
     @Override
     protected void onHandleIntent(Intent intent) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
@@ -54,13 +69,17 @@ public class RegistrationIntentService extends IntentService {
             // See https://developers.google.com/cloud-messaging/android/start for details on this file.
             // [START get_token]
 
+
             InstanceID instanceID = InstanceID.getInstance(this);
-            try
-            {
-                instanceID.deleteInstanceID();
-            } catch(IOException e)
-            {
-                e.printStackTrace();
+
+            if (neueID()){
+                try{if(!(sharedPreferences.getString("alterUser", null).equals(sharedPreferences.getString("Username", null))))
+                try{
+                    instanceID.deleteInstanceID();
+                }catch(IOException e){
+                    e.printStackTrace();
+                }}catch (Exception e){
+                }
             }
             instanceID = InstanceID.getInstance(this);
             //String token = instanceID.getToken(getString(R.string.gcm_defaultSenderId),

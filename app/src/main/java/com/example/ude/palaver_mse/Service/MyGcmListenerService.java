@@ -3,6 +3,7 @@ package com.example.ude.palaver_mse.Service;
 import com.example.ude.palaver_mse.App;
 import com.example.ude.palaver_mse.AppController;
 import com.example.ude.palaver_mse.ChatActivity;
+import com.example.ude.palaver_mse.LoginActivity;
 import com.example.ude.palaver_mse.MainActivity;
 import com.example.ude.palaver_mse.R;
 import com.example.ude.palaver_mse.contacts;
@@ -74,29 +75,56 @@ public class MyGcmListenerService extends GcmListenerService {
         AppController ac = (AppController) getApplication();
         ac.setContext(this);
 
-        Intent intent = new Intent(this, ChatActivity.class);
-        intent.putExtra("friend", data.getString("sender"));
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
-                PendingIntent.FLAG_ONE_SHOT);
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
 
-        Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
-                .setSmallIcon(R.drawable.ic_dialog_email)
-                .setContentTitle("Neue Palaver-Nachricht von " + data.getString("sender"))
-                .setContentText(data.getString("preview"))
-                .setAutoCancel(true)
-                .setSound(defaultSoundUri)
-                .setContentIntent(pendingIntent);
-
-        NotificationManager notificationManager =
-                (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        if( sp.getString("Eingeloggt", null).equals("ja")) {
+            Intent intent = new Intent(this, ChatActivity.class);
+            intent.putExtra("friend", data.getString("sender"));
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
+                    PendingIntent.FLAG_ONE_SHOT);
 
 
-        int id = ac.notificationId++;
-        notificationManager.notify(id /* ID of notification */, notificationBuilder.build());
+            Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+            NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
+                    .setSmallIcon(R.drawable.ic_dialog_email)
+                    .setContentTitle("Neue Palaver-Nachricht von " + data.getString("sender"))
+                    .setContentText(data.getString("preview"))
+                    .setAutoCancel(true)
+                    .setSound(defaultSoundUri)
+                    .setContentIntent(pendingIntent);
 
-        Intent i = new Intent("neueNachricht" + data.getString("sender"));
-        sendBroadcast(i);
+            NotificationManager notificationManager =
+                    (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
+
+            int id = ac.notificationId++;
+            notificationManager.notify(id /* ID of notification */, notificationBuilder.build());
+
+            Intent i = new Intent("neueNachricht" + data.getString("sender"));
+            sendBroadcast(i);
+        }else{
+
+
+            Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+            NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
+                    .setSmallIcon(R.drawable.ic_dialog_email)
+                    .setContentTitle("Neue Palaver-Nachricht von " + data.getString("sender"))
+                    .setContentText("Melden Sie sich an, um die Nachricht lesen zu können")
+                    .setAutoCancel(true)
+                    .setSound(defaultSoundUri);
+                  //  .setContentIntent(pendingIntent);
+
+            NotificationManager notificationManager =
+                    (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
+
+            int id = ac.notificationId++;
+            notificationManager.notify(id /* ID of notification */, notificationBuilder.build());
+
+            Intent i = new Intent("gotoNachricht" + data.getString("sender"));
+            sendBroadcast(i);
+        }
+
     }
 }

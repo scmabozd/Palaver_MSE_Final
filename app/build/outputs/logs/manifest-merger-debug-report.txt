@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:2:1-94:12
 	package
 		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml
@@ -41,8 +41,38 @@ MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.6] C:\User
 MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\2ea948993c7ddd60d954381c734472fff1398f5b\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.6] C:\Users\mbozd\.android\build-cache\3ebb05aa74da90c7afaadee1174ead3b13226257\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2e72408afe8189c450bb8f12d4c96eb5969fd8a5\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\mbozd\.android\build-cache\922f64668ca5c70cacb39947f039e90b72f93e10\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\mbozd\.android\build-cache\1c7b594a4a6cce45524560495bae68b83b69ba44\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:11:22-79
+permission#com.something.app.permission.C2D_MESSAGE
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:12:5-111
+	android:protectionLevel
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:12:73-108
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:12:17-72
+uses-permission#com.something.app.permission.C2D_MESSAGE
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:13:22-77
 application
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:11:5-48:19
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:15:5-92:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mbozd\.android\build-cache\29d4dd078b5394158435e5c21d149c6f88b9f2ea\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\mbozd\.android\build-cache\e8d7a2b8437a19f84802f5fc2b0441c08fe2e912\output\AndroidManifest.xml:26:5-20
@@ -99,81 +129,136 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mbozd\.android
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mbozd\.android\build-cache\d08a18a6ce019fa97934e8051b940d9325f33b14\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mbozd\.android\build-cache\ee24aea766e215d28ccc212d203607f51d836b76\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:16:9-32
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:20:9-32
 	android:supportsRtl
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:22:9-35
 	android:roundIcon
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:21:9-54
 	android:allowBackup
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:17:9-35
 	android:icon
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:19:9-43
 	android:theme
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:23:9-40
 	android:backgroundTint
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:14:9-53
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:18:9-53
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:12:9-38
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:16:9-38
 activity#com.example.ude.palaver_mse.splashActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:21:9-26:20
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:25:9-30:20
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:21:19-49
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:25:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:22:13-25:29
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:23:17-68
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:27:17-68
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.example.ude.palaver_mse.LoginActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:27:9-29:69
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:31:9-33:69
 	android:label
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:29:13-57
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:33:13-57
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:28:13-42
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:32:13-42
 activity#com.example.ude.palaver_mse.MainActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:30:9-32:20
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:34:9-36:20
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:30:19-47
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:34:19-47
 activity#com.example.ude.palaver_mse.RegisterActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:33:9-40:20
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:37:9-44:20
 	android:label
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:35:13-60
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:39:13-60
 	android:parentActivityName
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:36:13-56
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:38:13-45
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:37:13-39:50
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:41:13-43:50
 	android:value
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:39:17-47
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:43:17-47
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:38:17-63
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:42:17-63
 activity#com.example.ude.palaver_mse.chatOverviewActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:41:9-58
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:45:9-58
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:41:19-55
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:45:19-55
 activity#com.example.ude.palaver_mse.ChatWindow
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:42:9-48
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:46:9-48
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:42:19-45
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:46:19-45
 activity#com.example.ude.palaver_mse.ChatActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:43:9-50
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:47:9-50
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:43:19-47
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:47:19-47
 activity#com.example.ude.palaver_mse.AddContactActivity
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:44:9-56
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:48:9-56
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:44:19-53
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:48:19-53
 activity#com.example.ude.palaver_mse.contacts
-ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:45:9-47:44
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:49:9-51:44
 	android:label
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:47:13-41
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:51:13-41
 	android:name
-		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:50:13-37
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:55:9-63:20
+	android:exported
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:57:13-36
+	android:permission
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:58:13-73
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:56:13-66
+intent-filter#com.example.ude.palaver_mse+com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:59:13-62:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:60:17-81
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:60:25-78
+category#com.example.ude.palaver_mse
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:61:17-72
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:61:27-69
+service#com.example.ude.palaver_mse.Service2.GcmIntentService
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:67:9-89
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:67:18-86
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:68:9-69:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:69:13-66
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:68:20-65
+service#com.example.ude.palaver_mse.Service.MyGcmListenerService
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:70:9-75:19
+	android:exported
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:71:85-109
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:71:13-84
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:72:13-74:29
+service#com.example.ude.palaver_mse.Service.MyInstanceIDListenerService
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:79:9-84:19
+	android:exported
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:80:92-116
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:80:13-91
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:81:13-83:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:82:17-80
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:82:25-77
+service#com.example.ude.palaver_mse.Service.RegistrationIntentService
+ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:87:9-90:19
+	android:exported
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:89:13-37
+	android:name
+		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:88:13-89
 uses-sdk
 INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mbozd\.android\build-cache\29d4dd078b5394158435e5c21d149c6f88b9f2ea\output\AndroidManifest.xml:5:5-7:41
@@ -266,18 +351,6 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mbozd\.android\
 		ADDED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:26:9-47
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\2ea948993c7ddd60d954381c734472fff1398f5b\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-nearby:10.2.6] C:\Users\mbozd\.android\build-cache\3ebb05aa74da90c7afaadee1174ead3b13226257\output\AndroidManifest.xml:4:5-78
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:10.2.6] C:\Users\mbozd\.android\build-cache\3469f6fd3e84840abc3922307444494b738f242c\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2b3ee11d2a67421ed94899060f8e0a826d2c2950\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.6] C:\Users\mbozd\.android\build-cache\2e72408afe8189c450bb8f12d4c96eb5969fd8a5\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\mbozd\.android\build-cache\115b14e167cb6eefe291e42f2922e64158a544e4\output\AndroidManifest.xml:19:5-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:20:22-76
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:10.2.6] C:\Users\mbozd\.android\build-cache\0c62a79145ad5e0b24d5a5cfa1f20319a7e823e0\output\AndroidManifest.xml:25:9-232
 	android:configChanges
@@ -362,12 +435,6 @@ action#com.google.firebase.MESSAGING_EVENT
 ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:25:17-77
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:10.2.6] C:\Users\mbozd\.android\build-cache\5762d12ed19cc339dd39491d08ba94385abdf4f5\output\AndroidManifest.xml:25:25-75
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\mbozd\.android\build-cache\922f64668ca5c70cacb39947f039e90b72f93e10\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\mbozd\.android\build-cache\1c7b594a4a6cce45524560495bae68b83b69ba44\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:22:5-81
-	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\mbozd\.android\build-cache\922f64668ca5c70cacb39947f039e90b72f93e10\output\AndroidManifest.xml:20:22-79
 service#com.google.android.gms.tagmanager.TagManagerService
 ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.6] C:\Users\mbozd\.android\build-cache\56277d19f21c1b1bcac06491ee7b089b477aeeb0\output\AndroidManifest.xml:24:9-134
 	android:enabled
@@ -448,10 +515,6 @@ ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\bui
 		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:31:13-34:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:32:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:32:25-78
 category#${applicationId}
 ADDED from [com.google.firebase:firebase-iid:10.2.6] C:\Users\mbozd\.android\build-cache\d394c5c1df882cac39a474a66da2eada6932e8dd\output\AndroidManifest.xml:33:17-60
 	android:name
@@ -500,9 +563,3 @@ ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.an
 		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.android\build-cache\8c21cbbde81635f523535d63c2589afeec414506\output\AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\mbozd\.android\build-cache\8c21cbbde81635f523535d63c2589afeec414506\output\AndroidManifest.xml:19:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:20:9-121
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:20:66-119
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\mbozd\.android\build-cache\4983815597c694a5f429c8620528c124eac3e6c7\output\AndroidManifest.xml:20:20-65

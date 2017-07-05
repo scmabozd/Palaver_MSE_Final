@@ -278,6 +278,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                 editor.putString("Username", usernameLogin);
                                 editor.putString("Password", pwd);
                                 editor.putString("Eingeloggt", "ja");
+                                editor.putString("Switch", "i");
                                 editor.apply();
                                 finish();
                                 startActivity(new Intent(LoginActivity.this, contacts.class));
