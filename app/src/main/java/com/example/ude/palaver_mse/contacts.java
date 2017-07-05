@@ -69,9 +69,9 @@ public class contacts extends AppCompatActivity {
         // Registering BroadcastReceiver
         registerReceiver();
         if (checkPlayServices()) {
+                Intent intent = new Intent(this, RegistrationIntentService.class);
+                startService(intent);
             // Start IntentService to register this application with GCM.
-            Intent intent = new Intent(this, RegistrationIntentService.class);
-            startService(intent);
         }
 
         pDialog = new ProgressDialog(this);
@@ -135,10 +135,12 @@ public class contacts extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(c);
                 SharedPreferences.Editor editor = sp.edit();
-                editor.clear();
+                editor.putString("alterUser", sp.getString("Username", null));
+                //editor.clear();
                 editor.putString("Username",null);
                 editor.putString("Password",null);
                 editor.putString("Eingeloggt", "nein");
+                editor.putString("Switch", "x");
                 editor.commit();
                 finish();
                 startActivity(new Intent(contacts.this, LoginActivity.class));
