@@ -3,11 +3,15 @@ package com.example.ude.palaver_mse;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.media.Image;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.preference.PreferenceManager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +20,7 @@ import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.util.ResourceBundle;
 
@@ -26,6 +31,17 @@ public class splashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        ConnectivityManager connMgr = (ConnectivityManager)
+                getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+        final boolean isWifiConn = networkInfo.isConnected();
+        networkInfo = connMgr.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+        final boolean isMobileConn = networkInfo.isConnected();
+        Log.d("","Wifi connected: " + isWifiConn);
+        Log.d("","Mobile connected: " + isMobileConn);
+
+
 
         final View decorView = getWindow().getDecorView();
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
@@ -75,16 +91,30 @@ public class splashActivity extends Activity {
             }
             @Override
             public void onAnimationEnd(Animation animation) {
-                finish();
-                Log.d("Eingeloggt", eingeloggt);
-                if (eingeloggt.equals("ja"))
-                {
-                    Intent i = new Intent(getBaseContext(),contacts.class);
-                    startActivity(i);
+                if (isMobileConn || isWifiConn){
+                    finish();
+                    Log.d("Eingeloggt", eingeloggt);
+                    if (eingeloggt.equals("ja")) {
+                        Intent i = new Intent(getBaseContext(), contacts.class);
+                        startActivity(i);
+                    }
+                    else{
+                        Intent i = new Intent(getBaseContext(),LoginActivity.class);
+                        startActivity(i);
+                }}else{
+                    AlertDialog.Builder builder1 = new AlertDialog.Builder(splashActivity.this);
+                    builder1.setTitle("Keine Internetverbindung");
+                    builder1.setMessage("Aktivieren Sie WLAN oder mobile Daten und starten Sie die App neu");
+                    builder1.setCancelable(false);
+                    builder1.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            finish();
+                        }
+                    });
+                    builder1.show();
+                    Toast.makeText(getApplicationContext(),"Keine Internetverbindung",Toast.LENGTH_LONG).show();
 
-                }else{
-                    Intent i = new Intent(getBaseContext(),LoginActivity.class);
-                    startActivity(i);
                 }
 
             }
@@ -93,5 +123,12 @@ public class splashActivity extends Activity {
 
             }
         });
+    }
+
+    public boolean isOnline() {
+        ConnectivityManager connMgr = (ConnectivityManager)
+                getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        return (networkInfo != null && networkInfo.isConnected());
     }
 }
