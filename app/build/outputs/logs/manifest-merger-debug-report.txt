@@ -261,6 +261,7 @@ ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\Android
 		ADDED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml:88:13-89
 uses-sdk
 INJECTED from C:\Users\mbozd\AndroidStudioProjects\Palaver_MSE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\mbozd\.android\build-cache\0521dabbb5a354790d3722bb9882b42f7e3aee67\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mbozd\.android\build-cache\29d4dd078b5394158435e5c21d149c6f88b9f2ea\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\mbozd\.android\build-cache\a298b34d8f4afed390366edec42f9f9b2ddd3ba0\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mbozd\.android\build-cache\3ab436856f4e04753fcbddb78c659c57d7e44d43\output\AndroidManifest.xml:20:5-43
